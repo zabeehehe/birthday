@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <audio id="bg-music" autoplay loop>
+        <source src="music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1 id="typing-text">Happy Birthday, My Love! 🎉</h1>
+        <p class="subtext">I have a special surprise for you...</p>
+        <button id="reveal-button">Click to Reveal Surprise</button>
+        
+        <div id="surprise-content" class="hidden">
+            <p class="message">You are the most beautiful part of my life! ❤</p>
+            <img src="photo1.jpg" alt="Our Memory">
+            <div class="gallery">
+                <img src="photo2.jpg" alt="Photo 2">
+                <img src="photo3.jpg" alt="Photo 3">
+                <img src="photo4.jpg" alt="Photo 4">
+            </div>
+        </div>
+    </div>
+
+    <div class="hearts-container"></div>
+
+</body>
+</html>
